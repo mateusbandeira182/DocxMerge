@@ -1,0 +1,17 @@
+/vendor
+composer.lock
+.project
+.phpstan-tmp
+.vscode
+.idea
+# Cobertura de testes
+coverage/
+.phpunit.result.cache
+
+# PHPStan
+var/phpstan/
+
+# Relatórios
+*.cache
+*.log
+samples/output/*.docx
